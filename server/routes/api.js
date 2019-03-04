@@ -17,7 +17,7 @@ mongoose.connect(db.database, { useNewUrlParser: true }, (err) => {
 
 // GET
 router.get('/', (req, res) => {
-  res.send('api works');
+  res.send('api works!!');
 });
 
 // GET : ALL

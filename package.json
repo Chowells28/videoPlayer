@@ -26,7 +26,8 @@
     "express": "^4.16.4",
     "mongoose": "^5.3.13",
     "nodemon": "^1.18.6",
-    "rxjs": "~6.2.0",
+    "rxjs": "^6.4.0",
+    "rxjs-compat": "^6.4.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

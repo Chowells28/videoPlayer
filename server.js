@@ -8,7 +8,7 @@ const port = 3000;
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'dist')));
+app.use(express.static(path.join(__dirname, 'dist/videoPlayer')));
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
